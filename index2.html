@@ -14,16 +14,18 @@
       padding: 0;
     }
 
-    /* 標題設定 */
+    /* 大標題設定 */
     h1 {
       text-align: center;
-      font-size: 3em;
-      color: #333;
+      font-size: 4em;
+      color: #2C3E50; /* 深藍色 */
       margin: 0;
-      padding: 20px;
-      background-color: #ffffff;
-      border-bottom: 5px solid #ddd; /* 底邊框 */
+      padding: 50px 20px;
       font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 5px; /* 增加字母間距 */
+      background: #ecf0f1;
+      border-bottom: 5px solid #3498db; /* 藍色底邊框 */
     }
 
     /* 副標題與時間 */
@@ -45,11 +47,13 @@
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 增加陰影 */
     }
 
+    /* 小標題靠左對齊 */
     .section-title {
       font-size: 1.5em;
       margin-bottom: 15px;
       color: #333;
-      text-align: center;
+      text-align: left; /* 小標題靠左 */
+      font-weight: bold;
     }
 
     p {
@@ -79,13 +83,9 @@
   </style>
 </head>
 <body>
-  <h1>Map, Food, Smiles
-      Allen Tseng's webpage
-  </h1>
+  <h1>Map、Food、Smiles</h1>
   <div class="subtitle">
-    <p>
-      Map, Food, Smiles
-      Created by Allen Tseng on 2025/03/01</p>
+    <p>Created by Allen Tseng on 2025/03/01</p>
   </div>
   
   <div class="content">
@@ -113,3 +113,4 @@
   </footer>
 </body>
 </html>
+
