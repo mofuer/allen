@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Allen-Tseng 曾繁承 - 自傳</title>
+  <title>My Second Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
   <style>
     /* 設定網頁背景顏色 */
     body {
@@ -17,16 +18,28 @@
     /* 大標題設定 */
     h1 {
       text-align: center;
-      font-size: 3em;
-      color: #333;
+      font-size: 2.5em; /* 調整字體大小 */
+      color: #2C3E50; /* 深藍色 */
       margin: 0;
-      padding: 20px;
-      background-color: #ffffff;
-      border-bottom: 5px solid #ddd; /* 底邊框 */
+      padding: 50px 20px;
       font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 5px; /* 增加字母間距 */
+      background: #ecf0f1;
+      border-bottom: 5px solid #000; /* 改為黑色底邊框 */
+      font-family: 'Roboto', sans-serif; /* 使用Roboto字型 */
     }
 
-    /* 副標題與簡介 */
+    /* 大標題下方的副標題文字 */
+    .webpage-name {
+      text-align: center;
+      font-size: 1.2em;
+      color: #2C3E50; /* 與大標題顏色一致 */
+      font-weight: normal; /* 去掉粗體 */
+      margin-top: 10px;
+    }
+
+    /* 副標題與時間 */
     .subtitle {
       text-align: center;
       font-size: 1.2em;
@@ -35,7 +48,7 @@
       margin-bottom: 20px;
     }
 
-    /* 內容容器 */
+    /* 內容容器，讓內容顯得更有層次 */
     .content {
       max-width: 900px;
       margin: 30px auto;
@@ -45,17 +58,29 @@
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 增加陰影 */
     }
 
-    /* 小標題樣式 */
+    /* 小標題靠左對齊，並與大標題相同顏色 */
     .section-title {
-      font-size: 1.5em;
-      margin-bottom: 15px;
-      color: #333;
-      text-align: left;
+      font-size: 1.8em; /* 增加小標題字體大小 */
+      margin-bottom: 25px; /* 增加小標題下方的間距 */
+      color: #2C3E50; /* 與大標題顏色一致 */
+      text-align: left; /* 小標題靠左 */
+      font-weight: bold;
     }
 
+    /* 調整段落與圖片的間距 */
     p {
-      line-height: 1.6;
-      margin-bottom: 20px;
+      line-height: 1.8; /* 增加行高 */
+      margin-bottom: 30px; /* 增加段落底部間距 */
+    }
+
+    img {
+      width: 100%; /* 圖片佔滿寬度 */
+      max-width: 800px; /* 設定最大寬度 */
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 增加陰影 */
     }
 
     /* 頁腳 */
@@ -69,54 +94,30 @@
   </style>
 </head>
 <body>
-
-  <!-- 大標題 -->
   <h1>Allen-Tseng 曾繁承</h1>
-
-  <!-- 副標題與簡介 -->
+  <div class="webpage-name">
+    <p>Allen Tseng's webpage</p>
+  </div>
   <div class="subtitle">
-    <p>自傳 - 由 Allen-Tseng 曾繁承 撰寫</p>
+    <p>Created by Allen Tseng on 2025/03/01</p>
   </div>
   
-  <!-- 主要內容區域 -->
   <div class="content">
     <div class="section">
-      <h2 class="section-title">關於我</h2>
-      <p>大家好，我是 Allen-Tseng 曾繁承，一位來自台灣的學生，主修金融和資訊管理。我的興趣包括程式設計、金融市場分析以及數據科學。這個網頁的目的是分享我在學術和生活方面的經歷，以及我在這些領域中的學習與成長。</p>
+      <h2 class="section-title">Section 1</h2>
+      <p></p> <!-- 留空內容，方便後續添加 -->
     </div>
 
     <div class="section">
-      <h2 class="section-title">學歷背景</h2>
-      <p>我目前是某大學資訊管理與金融學院的碩士生。在大學期間，我深入學習了金融分析、機器學習以及量化分析等領域。我也積極參與學術活動，並且曾經在國際會議中發表過與金融科技相關的研究。</p>
+      <h2 class="section-title">Section 2</h2>
+      <p></p> <!-- 留空內容，方便後續添加 -->
     </div>
 
     <div class="section">
-      <h2 class="section-title">專業技能</h2>
-      <p>我具備以下幾項專業技能：
-        <ul>
-          <li>程式語言：Python, R, MATLAB</li>
-          <li>資料分析：使用 Pandas、NumPy 進行數據處理和分析</li>
-          <li>機器學習：熟悉常見的 ML 算法和應用</li>
-          <li>金融分析：深入理解股票、期貨及衍生品市場</li>
-        </ul>
-      </p>
+      <h2 class="section-title">Section 3</h2>
+      <p></p> <!-- 留空內容，方便後續添加 -->
     </div>
-
-    <div class="section">
-      <h2 class="section-title">未來目標</h2>
-      <p>我的短期目標是進一步提升我的程式設計與數據分析能力，並在金融領域尋找更多的實習機會。長期而言，我希望能夠在金融科技領域中發揮我的專長，幫助公司進行數據驅動的決策。</p>
-    </div>
-
   </div>
-
-  <!-- 頁腳 -->
-  <footer>
-    <p>感謝您的閱讀！</p>
-  </footer>
-
-</body>
-</html>
-
 
   <footer>
     <p>Thank you for visiting!</p>
