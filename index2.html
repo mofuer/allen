@@ -1,96 +1,108 @@
----
-layout: home
-title: Welcome to My MFS
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to My MFS</title>
+  <style>
+    /* 設定網頁背景顏色 */
+    body {
+      background-color: #f5f5f5; /* 淺灰色背景 */
+      font-family: Arial, sans-serif; /* 設定字型 */
+      color: #333; /* 文字顏色 */
+      margin: 0;
+      padding: 0;
+    }
 
-<style>
-  body {
-    background-color: #f5f5f5; /* 更改背景顏色 (淺灰色) */
-    font-family: Arial, sans-serif; /* 變更字型 */
-    color: #000000; /* 文字顏色為黑色 */
-    line-height: 1.6; /* 增加行距，讓內容不會太擠 */
-    margin: 0;
-    padding: 0;
-  }
+    /* 設定標題樣式，並加底色 */
+    h1 {
+      text-align: center;
+      color: #000000; /* 黑色文字 */
+      background-color: #ffcc00; /* 黃色底色 */
+      padding: 20px;
+      margin: 0;
+    }
 
-  /* 標題樣式 */
-  h1 {
-    text-align: center; /* 大標題置中 */
-    color: #000000; /* 顏色為黑色 */
-    background-color: #f1f1f1; /* 標題底色 */
-    padding: 20px;
-    margin: 0;
-    border-radius: 5px; /* 圓角效果 */
-  }
+    /* 設定副標題樣式 */
+    h2 {
+      color: #000000; /* 黑色文字 */
+      text-align: center;
+      margin-top: 20px;
+    }
 
-  /* "Created"行的樣式 */
-  p {
-    text-align: center; /* 置中 */
-    font-size: 1.2em;
-    color: #000000; /* 文字顏色為黑色 */
-    margin-top: -10px;
-  }
+    /* 設定圖片大小和樣式 */
+    img {
+      width: 80%;
+      max-width: 500px;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 增加陰影 */
+    }
 
-  h2 {
-    margin-top: 30px;
-  }
+    /* 內容容器，讓內容顯得更有層次 */
+    .content {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #ffffff; /* 白色背景 */
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 增加陰影 */
+    }
 
-  .container {
-    max-width: 900px;
-    margin: 40px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-  }
+    .section-title {
+      font-size: 1.5em;
+      margin-bottom: 15px;
+      color: #000000;
+    }
 
-  img {
-    width: 100%; /* 讓圖片寬度自適應 */
-    max-width: 400px; /* 限制最大寬度 */
-    height: auto;
-    border-radius: 10px; /* 圓角圖片 */
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* 圖片加陰影 */
-    margin: 10px;
-  }
+    p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
 
-  .image-container {
-    display: flex;
-    justify-content: space-around; /* 圖片居中並且左右對齊 */
-    flex-wrap: wrap;
-  }
-
-  h1, h2 {
-    color: #333; /* 標題顏色 */
-  }
-
-  p {
-    text-align: justify; /* 讓段落文字兩邊對齊 */
-  }
-</style>
-
-<div class="container">
+    /* 頁腳 */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ffcc00; /* 與標題底色一致 */
+      color: #000;
+    }
+  </style>
+</head>
+<body>
   <h1>Map、Food、Smiles</h1>
-  <p>Created by **Allen Tseng** on *2025/03/01*</p>
+  <div class="content">
+    <p><strong>Created by Allen Tseng on 2025/03/01</strong></p>
+    
+    <div class="section">
+      <h2 class="section-title">Map</h2>
+      <p>First, let's start with map. I was raised in Banqiao, New Taipei City, and I think the most famous landmark in my hometown is New Taipei Christmasland. I also studied at National Chung Cheng University in Chiayi, where I spent my university years on a peaceful campus surrounded by nature.</p>
+      <img src="https://github.com/user-attachments/assets/34cabd75-1830-403f-a48c-14178f46e2a7" alt="Map Image 1">
+      <img src="https://github.com/user-attachments/assets/20e3c557-561f-4b0f-b053-b783d384c09a" alt="Map Image 2">
+      <img src="https://github.com/user-attachments/assets/a0914bd6-9cdc-4a82-ba17-bf1e9e7d1846" alt="Map Image 3">
+    </div>
 
-  <h2>Map</h2>
-  <p>First, let's start with map. I was raised in **Banqiao, New Taipei City**, and I think the most famous landmark in my hometown is **New Taipei Christmasland**. I also studied at National Chung Cheng University in Chiayi, where I spent my university years on a peaceful campus surrounded by nature.</p>
+    <div class="section">
+      <h2 class="section-title">Food</h2>
+      <p>Next, we have food. I love sashimi, because of its simplicity and rich flavor. I appreciate things that are straightforward yet meaningful. Another dish I love is sukiyaki, a Japanese hot pot. The moment the beef absorbs the umami flavors of the broth and is dipped into raw egg, it becomes incredibly flavorful. Lastly, I enjoy spaghetti, especially white wine clam spaghetti, because the aroma of garlic and olive oil makes the dish even more irresistible.</p>
+      <img src="https://github.com/user-attachments/assets/07e8f906-695e-4ddd-a6a0-a118c80d62f2" alt="Food Image 1">
+      <img src="https://github.com/user-attachments/assets/e790fd28-6f17-4ff6-bc9c-1ec993fd73f9" alt="Food Image 2">
+      <img src="https://github.com/user-attachments/assets/21b46a1b-4126-4aae-be32-8138f448a095" alt="Food Image 3">
+    </div>
 
-  <div class="image-container">
-    ![Image](https://github.com/user-attachments/assets/d3cede58-1090-49b9-a9e0-bf688cf66b49)
+    <div class="section">
+      <h2 class="section-title">Smiles</h2>
+      <p>Finally, we come to smiles, the things that bring me the most joy. Traveling makes me smile because I love experiencing different cultures, trying local foods, and discovering new places. Playing basketball is another passion of mine, and it's a good way to relieve stress.</p>
+      <img src="https://github.com/user-attachments/assets/217acd48-4c4a-4ce9-812c-64e680fbc95f" alt="Smiles Image 1">
+      <img src="https://github.com/user-attachments/assets/b1533684-d52c-425e-a0ac-dc181edea730" alt="Smiles Image 2">
+    </div>
   </div>
 
-  <h2>Food</h2>
-  <p>Next, we have food, I love **sashimi**, because of its simplicity and rich flavor. I appreciate things that are straightforward yet meaningful. Another dish I love is sukiyaki, a Japanese hot pot, the moment the beef absorbs the umami flavors of the broth and is dipped into raw egg, it becomes incredibly flavorful. Lastly, I enjoy spaghetti, especially white wine clam spaghetti, because the aroma of garlic and olive oil makes the dish even more irresistible.</p>
-
-  <div class="image-container">
-    ![Image](https://github.com/user-attachments/assets/ac547670-1dbd-4d5f-9162-5bdb62f32f3d)
-  </div>
-
-  <h2>Smiles</h2>
-  <p>Finally, we come to smiles, the things that bring me the most joy. Traveling makes me smile because I love experiencing different cultures, trying local foods, and discovering new places, and playing basketball is another passion of mine, and it's a good way to relieve stress.</p>
-
-  <div class="image-container">
-   ![Image](https://github.com/user-attachments/assets/2dfc5df6-02b0-47fe-895b-35892a76a5b5)
-  </div>
-</div>
+  <footer>
+    <p>Thank you for visiting!</p>
+  </footer>
+</body>
+</html>
 
