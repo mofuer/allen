@@ -1,3 +1,7 @@
+---
+layout: home
+title: Welcome to My MFS
+---
 
 # Map、Food、Smiles
 Hello everyone! My name is allen, and today i'd like to introduce myself through three words: map, food, and smiles.
