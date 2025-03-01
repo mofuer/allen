@@ -4,7 +4,8 @@ title: Welcome to My MFS
 ---
 
 # Map、Food、Smiles
-Hello everyone! My name is allen, and today i'd like to introduce myself through three words: map, food, and smiles.
+Created by allen Tseng on 20250301
+
 ## Map
 First, let's start with map. I was raised in Banqiao, New Taipei City, and i think the most famous landmark in my hometown is New Taipei Christmasland. I also studied at National Chung Cheng University in Chiayi, where i spent my university years on a peaceful campus surrounded by nature.
 
@@ -20,7 +21,7 @@ Next, we have food, I love sashimi, because of its simplicity and rich flavor. I
 <img src="https://github.com/user-attachments/assets/21b46a1b-4126-4aae-be32-8138f448a095" width="316" height="200">
 
 ## Smiles
-Finally, we come to smiles, the things that bring me the most joy. Traveling makes me smile because I love experiencing different cultures, trying local foods, and discovering new places. Playing basketball is another passion of mine, and it's a good way to relieve stress.
+Finally, we come to smiles, the things that bring me the most joy. Traveling makes me smile because I love experiencing different cultures, trying local foods, and discovering new places, and playing basketball is another passion of mine, and it's a good way to relieve stress.
 
 <img src="https://github.com/user-attachments/assets/217acd48-4c4a-4ce9-812c-64e680fbc95f" width="316" height="200">
 <img src="https://github.com/user-attachments/assets/b1533684-d52c-425e-a0ac-dc181edea730" width="316" height="200">
