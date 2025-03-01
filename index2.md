@@ -10,17 +10,29 @@ title: Welcome to My MFS
     color: #333; /* 黑色文字 */
     margin: 0;
     padding: 0;
+    line-height: 1.6; /* 增加行高 */
   }
 
-  h1, h2 {
+  h1 {
     color: #333; /* 標題顏色 */
+    font-size: 2.5em; /* 大標題大小 */
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 15px;
   }
 
   .container {
     max-width: 900px;
     margin: 40px auto;
     background: white;
-    padding: 25px;
+    padding: 30px;
     border-radius: 12px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   }
@@ -32,22 +44,29 @@ title: Welcome to My MFS
     margin: 20px 0;
   }
 
-  img {
-    border-radius: 10px; /* 圖片圓角 */
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* 圖片陰影 */
-    max-width: 100%;
-  }
-
   .image-container {
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-around;
+    gap: 15px;
     flex-wrap: wrap;
+    margin-top: 20px;
   }
 
   .image-container img {
     width: 30%;
-    min-width: 250px;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .section {
+    margin-bottom: 40px; /* 增加段落間距 */
+  }
+
+  p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
   }
 </style>
 
@@ -89,6 +108,3 @@ Finally, we come to smiles, the things that bring me the most joy. **Traveling**
 </div>
 
 </div>
-
-
-
